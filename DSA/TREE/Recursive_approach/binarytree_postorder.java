@@ -1,4 +1,4 @@
-package TREE;
+package TREE.Recursive_approach;
 
 class tree{
     int data;

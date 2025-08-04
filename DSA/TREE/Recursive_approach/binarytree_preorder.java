@@ -1,4 +1,4 @@
-package TREE;
+package TREE.Recursive_approach;
 
 class tree{
     int data;
@@ -10,21 +10,21 @@ class tree{
     }
 }
 
-public class binarytree_inorder {
+public class binarytree_preorder {
     public static void main(String[] vk){
-       tree root = new tree(1);
+        tree root = new tree(1);
         root.left = new tree(2);
         root.right = new tree(3);
         root.left.left = new tree(4);
         root.left.right = new tree(5);
-
-        inorder(root);
+        preorder(root);
     }
 
-    public static void inorder(tree root){
+    public static void preorder(tree root){
         if(root == null) return;
-        inorder(root.left);
-        System.out.print(root.data + " ");
-        inorder(root.right);
+        System.out.println(root.data + " ");
+        preorder(root.left);
+        preorder(root.right);
     }
 }
+
