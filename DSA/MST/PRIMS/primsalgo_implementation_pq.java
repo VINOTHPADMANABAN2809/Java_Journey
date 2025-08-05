@@ -1,4 +1,4 @@
-package MST.PRIMS;
+
 import java.util.*;
 
 public class primsalgo_implementation_pq {
