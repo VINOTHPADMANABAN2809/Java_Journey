@@ -1,3 +1,4 @@
+package BIT_MANIPULATION;
 import java.util.*;
 public class int_bin {
     public static void main(String[] vk){

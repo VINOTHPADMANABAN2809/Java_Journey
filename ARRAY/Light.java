@@ -1,3 +1,4 @@
+package ARRAY;
 import java.util.*;
 class Light{
     public static void main(String[] args){

@@ -11,7 +11,7 @@ Welcome to my **Java Data Structures and Algorithms (DSA)** journey! This reposi
 - [ ] Stack & Queue  
 - [ ] Binary Trees & Binary Search Trees  
 - [x] Tree Traversals (Inorder, Preorder, Postorder, Level-order)  
-- [ ] Graphs (BFS, DFS, Topo Sort, etc.)  
+- [X] Graphs (BFS, DFS, Topo Sort, etc.)  
 - [ ] Recursion & Backtracking  
 - [ ] Dynamic Programming  
 - [ ] Greedy Algorithms  

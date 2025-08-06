@@ -1,3 +1,4 @@
+package STRING;
 import java.util.*;
 public class Str_ch {
     public static void main(String[] args) {

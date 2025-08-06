@@ -1,3 +1,4 @@
+package ARRAY;
 import java.util.*;
 public class move_zero {
     public static void main(String[] vk){

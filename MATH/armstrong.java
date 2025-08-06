@@ -1,3 +1,4 @@
+package MATH;
 import java.util.*;
 class armstrong{
     public static void main(String[] vk){

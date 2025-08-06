@@ -1,3 +1,4 @@
+package ARRAY;
 import java.util.*;
 public class smallest_subarray_greater_than_givenNumber {
     
