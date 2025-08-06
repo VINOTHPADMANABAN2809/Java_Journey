@@ -1,4 +1,4 @@
-package DSA.MST.KRUSKALS;
+package MST.KRUSKALS;
 import java.util.*;
 class Edge{
     int s;

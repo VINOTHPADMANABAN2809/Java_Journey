@@ -1,9 +1,9 @@
 package TREE.Recursive_approach;
 
-class tree{
+class tre{
     int data;
-    tree left,right;
-    tree(int data){
+    tre left,right;
+    tre(int data){
         this.data = data;
         this.left = null;
         this.right = null;
@@ -12,15 +12,15 @@ class tree{
 
 public class binarytree_preorder {
     public static void main(String[] vk){
-        tree root = new tree(1);
-        root.left = new tree(2);
-        root.right = new tree(3);
-        root.left.left = new tree(4);
-        root.left.right = new tree(5);
+        tre root = new tre(1);
+        root.left = new tre(2);
+        root.right = new tre(3);
+        root.left.left = new tre(4);
+        root.left.right = new tre(5);
         preorder(root);
     }
 
-    public static void preorder(tree root){
+    public static void preorder(tre root){
         if(root == null) return;
         System.out.println(root.data + " ");
         preorder(root.left);
