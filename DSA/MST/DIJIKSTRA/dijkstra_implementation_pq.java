@@ -1,4 +1,3 @@
-package MST.DIJIKSTRA;
 import java.util.*;
 public class dijkstra_implementation_pq {
     static class pair {
